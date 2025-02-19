@@ -29,6 +29,18 @@
   gap: 1rem;
 }
 
+.flex {
+  display: flex;
+}
+
+.gap-1 {
+  gap: 1 rem;
+}
+
+.grid {
+  display: grid;
+}
+
 @midia (width >= 80em) {
   .container {
     --max-width: 80rem;
